@@ -2,7 +2,6 @@
 
 namespace ArtMin96\FilamentPopover\Http\Livewire;
 
-use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Component;
@@ -40,7 +39,7 @@ class Popover extends Component
     public function render(): View
     {
         return view($this->getView(), array_merge([
-            'model' => $this->getModel()
+            'model' => $this->getModel(),
         ], $this->getViewData()));
     }
 }

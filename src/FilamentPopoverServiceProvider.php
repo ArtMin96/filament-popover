@@ -69,7 +69,7 @@ class FilamentPopoverServiceProvider extends PluginServiceProvider
 
         return collect($configFor)
             ->mapWithKeys(fn ($item): ?array => [
-                "tippy-{$for}-{$item}" => "https://unpkg.com/tippy.js@6/{$for}/{$item}.css"
+                "tippy-{$for}-{$item}" => "https://unpkg.com/tippy.js@6/{$for}/{$item}.css",
             ])
             ->all();
     }

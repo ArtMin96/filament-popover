@@ -2,11 +2,11 @@
 
 namespace ArtMin96\FilamentPopover\Tests;
 
+use ArtMin96\FilamentPopover\FilamentPopoverServiceProvider;
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ArtMin96\FilamentPopover\FilamentPopoverServiceProvider;
 
 class TestCase extends Orchestra
 {
