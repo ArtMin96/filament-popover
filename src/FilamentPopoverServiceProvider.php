@@ -51,8 +51,6 @@ class FilamentPopoverServiceProvider extends PluginServiceProvider
 
     /**
      * Register the given component.
-     *
-     * @param  string  $component
      */
     protected function registerComponent(string $component): void
     {
